@@ -1,0 +1,21 @@
+body {
+  font-family: Arial;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 40px;
+}
+.card p {
+  margin: 10px;
+  font-weight: 700;
+}
+button {
+  background-color: rgb(20, 175, 175);
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+}
