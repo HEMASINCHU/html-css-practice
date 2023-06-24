@@ -1,0 +1,30 @@
+
+.card{
+    max-width:10rem;
+    margin:10px;
+    border:1px solid;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+
+}
+
+.card-content {
+    max-width: 10rem;
+    min-height:8rem;
+    display:inline-flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    align-items:center;
+    padding:0 10px;
+    
+
+   
+    
+}
+.card-footer{
+    border-top:1px solid #D7DBDD;
+    text-align: center;
+    padding:5px 0px ;
+    background-color: #EEF3F5;
+    color:#57727C;
+}
