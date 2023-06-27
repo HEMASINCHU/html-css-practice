@@ -1,0 +1,34 @@
+.mosaic {
+ display: flex;
+ flex-direction: column;
+ flex-wrap: wrap;
+  width: 478px;
+  height: 370px;
+  padding: 6px;
+  border: 1px solid #D7DBDD;
+  overflow: auto;
+} 
+.photo :last-child {
+  position: relative;
+}
+.photo:last-child::after{
+  display: flex;
+  width: 11px;
+  height: 1px;
+  position:absolute;
+  top: 0;
+  left: 100%;
+  visibility: hidden;
+}
+
+.photo--small {
+  height: 70px;
+
+}
+.photo--medium {
+  height: 90px;
+}
+
+
+
+

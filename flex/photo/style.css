@@ -1,0 +1,16 @@
+.photo {
+  display: inline-flex;
+  min-width: 5rem;
+  min-height: 5rem;
+  border: 1px solid;
+  background-image: url("https://picsum.photos/seed/picsum/100/200");
+  background-repeat: no-repeat;
+  padding: 10px;
+  align-items: flex-end;
+  justify-content: end;
+  margin: 5px;
+  padding: 5px 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}

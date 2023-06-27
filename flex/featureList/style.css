@@ -1,0 +1,31 @@
+.feature-list-left {
+    display:flex;
+    align-items: center;
+    max-width: 50rem;
+    padding:15px;
+    
+
+}
+
+.feature-list-right{
+    display:flex;
+    align-items:center;
+    border-top:1px solid;
+    border-bottom: 1px solid; 
+    padding:5px;  
+}
+.icon1{
+    order:2;
+}
+.description{
+    padding: 5px 15px;
+    color: #57727C;
+    font-size: 12px;
+}
+.featureList{
+    display:inline-flex;
+    flex-direction: column;
+    padding: 20px;
+    border:1px solid;
+
+}

@@ -1,0 +1,43 @@
+.navbar {
+    display: flex;
+    justify-content:space-between;
+    /* border: 1px solid; */
+    font-size: 12px;
+    
+}
+
+.rightside {
+    margin-left:0;
+    /* border: 1px solid; */
+    display:flex;
+    justify-content: space-between;   
+    list-style-type: none;
+    gap: 10px;
+    /* flex-grow: 1; */
+}
+.rightside a{
+    text-decoration: none;
+
+}
+
+@media screen and (max-width:320px) {
+    nav {
+      background-color: lightgreen;
+    }
+    .rightside {
+        display: none;
+    }
+  }
+
+  @media screen and (min-width:600px) {
+    nav {
+      background-color: rgb(230, 144, 238);
+    }
+  }
+
+  @media screen and (min-width:1025) {
+    nav {
+      background-color: rgb(241, 33, 33);
+    }
+  }
+
