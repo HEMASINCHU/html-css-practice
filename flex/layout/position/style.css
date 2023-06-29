@@ -1,0 +1,38 @@
+html {
+    background-color: #f37c21;
+    padding:10px;
+    height:3000px;
+}
+
+body {
+    background-color: yellow;
+    padding: 10px;
+    margin:0;
+    /* position: absolute;
+    top:0; */
+    position:relative;
+    top:50px;
+}
+header {
+    background-color: #f073e1;
+    margin:10px;
+    position:relative;
+    top:10px;
+}
+nav {
+    background-color: #f073e1;
+    /* margin:10px; */
+    /* position:absolute;
+    top:0;
+    left:0; */
+    position:fixed;
+    top:0;
+    left:20px;
+
+}
+footer {
+ background-color: #f073e1;
+
+    position:fixed;
+    top:0;
+}

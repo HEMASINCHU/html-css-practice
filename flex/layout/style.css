@@ -1,0 +1,37 @@
+.featureList{
+    display: flex;
+    justify-content: flex-start;
+    max-width:100%;
+}
+.first-section{
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    align-items:flex-start;
+    min-height: 300px;
+    margin:10px;
+}
+.icon {
+    font-size: 30px;
+    color: blue;
+      
+}
+.first-header{
+      font-size: 10px;
+      font-weight: 700;
+      text-align: flex-start;
+      color: #01090c;
+      margin:10px 0;
+}
+.first-content{
+    font-size: 8px;
+    text-align: flex-start;
+     width:100%;
+     font-family: 'Times New Roman', Times, serif;
+}
+
+.footer{ 
+    color:blue;
+    font-size: 8px;
+    padding:5px 0;
+}
