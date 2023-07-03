@@ -1,0 +1,17 @@
+.box{
+    position: relative;
+    top:100px;
+    left:30px;
+    border:1px solid black;
+}
+.box1 {
+    position: absolute;
+    top:30px;
+    left:10px;
+    border: 1px solid blue;
+}
+.box2 {
+    position: fixed;
+    top:0;
+    left:0;
+}

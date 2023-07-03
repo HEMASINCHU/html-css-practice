@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  font-size: 8px;
+  justify-content: flex-start;
+  
+}
+.left {
+  flex-grow: 1;
+  border: 1px solid;
+  flex-basis: 50%;
+  padding: 10px;
+}
+.right {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  border: 1px solid;
+  flex-basis: 50%;
+  padding: 10px;
+  gap:10px;
+}
+.feature {
+  max-width: 6rem;
+  gap: 10px;
+  
+}
+.feature > h2, .feature > p{
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+
+}
+button {
+  font-size: 6px;
+  width: 60px;
+}
