@@ -1,0 +1,35 @@
+.centeredPrompt {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  min-height: 200px;
+  padding: 20px;
+  background-color: rgb(240, 241, 255);
+  min-width: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.icon {
+  font-size: 50px;
+  color: green;
+}
+
+.label {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.details {
+  font-size: 14px;
+  text-align: center;
+}
+button {
+  width: 50px;
+  background-color: rgb(138, 190, 238);
+  border-radius: 5px;
+  border: none;
+}

@@ -1,0 +1,28 @@
+/* .container {
+    display: inline-block;
+
+} */
+
+/* .container {
+    display: flex;
+  }
+  
+  .container span {
+    margin-right: 10px;
+  } */
+
+  /* .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .container span {
+    margin-right: 10px; 
+  } */
+
+  /* .container span {
+    float: left;
+    margin-right: 10px; 
+  } */
+  
+  
