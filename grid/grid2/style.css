@@ -1,0 +1,64 @@
+#grid {
+    display: grid;
+    grid-template-rows: 50px 1fr 80px;
+    grid-template-columns: 120px 1fr 80px;
+    grid-gap: 5px;
+    height: 90vh;
+    border: 1px solid blue ;
+  }
+  #grid > div {
+    background-color: #66CC00;
+    border: 1px solid;
+  }
+  #item1 {
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-row-end: 2;
+    grid-column-end: 2;
+    }
+  #item2 {
+    grid-row-start: 3;
+    grid-column-start: 2;
+    grid-row-end: 4;
+    grid-column-end: 4;  
+    }
+    
+
+
+    ul {
+        display: grid;
+        grid: auto-flow / auto 1fr;
+        border:none;
+      }
+      li {
+        grid-column: span 2;
+        display: grid;
+        grid: subgrid;
+        gap:10px;
+      }
+      label {
+        grid-column: 1;
+      }
+      input {
+        grid-column: 2;
+      }
+
+      .myForm {
+        display: grid;
+        grid-auto-flow: row;
+        grid-gap: .8em;
+        background: beige;
+        padding: 1.2em;
+      }
+      .myForm > label  {
+        grid-column: labels;
+        grid-row: auto;
+      }
+      .myForm > input,
+      .myForm > textarea {
+        grid-column: controls;
+        grid-row: auto;
+      }
+      .myForm > button {
+        grid-column: span 2;
+      }

@@ -1,0 +1,12 @@
+.container{
+    display:flex;
+}
+.dv{
+    background-color: blueviolet;
+    margin-left:10px;
+}
+.dvi{
+    background-color: gray;
+    margin-left:10px;
+    flex:1;
+}

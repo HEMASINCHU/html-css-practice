@@ -1,0 +1,79 @@
+.subscribe-button {
+  background-color: rgba(200, 9, 9, 0.593);
+  color: white;
+  border: none;
+  height: 36px;
+  width: 105px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: opacity 0.15s;
+  vertical-align: top;
+}
+.subscribe-button:hover {
+  background: green;
+  opacity: 0.8;
+}
+.join-button {
+  background-color: #fff;
+  border-color: rgb(210, 210, 244);
+  border-style: solid;
+  color: rgb(210, 210, 244);
+  border-width: 1px;
+  border-radius: 2px;
+  cursor: pointer;
+  padding-left:30px;
+  padding-top:30px;
+  vertical-align: top;
+}
+.subscribe-button:active {
+  background-color: blue;
+  opacity: 0.3; 
+}
+.join-button:hover{
+  background-color: rgb(168, 13, 13);
+  color:white;
+}
+.join-button:active{
+  background-color: yellow;
+  color: white;
+}
+.tweet-button {
+  background-color: blue;
+  color: white;
+  height: 36px;
+  width: 60px;
+  border-radius: 18px;
+  font-size: 15px;
+  cursor: pointer;
+  margin-left: 8px;
+  transition: opacity 0.15s;
+  vertical-align: top;
+  /* box-shadow: 10px 10px 10px black; */
+
+}
+
+.indentifier{
+  font-family:Arial;
+  font-size:30px;
+  font-weight: bold;
+  font-style: italic; 
+  text-align:center;
+  width:400px;
+  line-height: 24px;
+}
+.video-list{
+  font-family: serif;
+  font-weight: bold;
+  font-size: 18px;  
+  line-height: 24px; 
+  margin-top:0; 
+
+}
+.video-stats{
+  font-family: Arial, Helvetica, sans-serif;
+font-size: 14px;
+color:blue;
+margin-bottom:0;
+}
+
