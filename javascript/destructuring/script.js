@@ -44,3 +44,65 @@
 // ];
 // const [, [, middle]] = matrix1;
 // console.log(middle);
+
+// //object Destructuring
+// const person = {
+//   name: "hema",
+//   surname: "r",
+//   age: 25,
+// };
+// const { name, surname, age } = person;
+// console.log(name, surname, age);
+
+////Renaming Variables
+// const book = {
+//     title: 'The Great Gatsby',
+//     author: 'F. Scott Fitzgerald',
+//   };
+
+//   const { title: bookTitle, author: bookAuthor } = book;
+//   console.log(bookTitle,bookAuthor);
+
+////Default Values
+// const person = {
+//   name: "hema",
+//   age: 20,
+// };
+// const { name, occupation = "farmer" } = person;
+// console.log(name, occupation);
+
+////nested
+// const student = {
+//   name: "hema",
+//   rollno: 30,
+//   score: {
+//     maths: 50,
+//     science: 80,
+//   },
+// };
+// const {
+//   name,
+//   score: { maths, science },
+// } = student;
+// console.log(name, science);
+
+// //function parameter
+// const person = {
+//   firstName: "Michael",
+//   lastName: "Johnson",
+// };
+// function printFullName({ firstName, lastName }) {
+//   console.log(`${firstName} ${lastName}`);
+// }
+
+// printFullName(person);
+
+// //rest property
+// const company = {
+//   name: "TechCo",
+//   location: "Silicon Valley",
+//   size: "Large",
+// };
+// const { name, ...restProps } = company;
+
+// console.log(name, restProps);
